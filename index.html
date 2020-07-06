@@ -27,12 +27,12 @@
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 card-header">
+            <div class="col-3 card-header">
               <h2>Search City</h2>
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                    <input type="text" id="city" class="form-control" placeholder= "City" aria-label="" aria-describedby="basic-addon1">
                     <div class="input-group-append">
-                      <button class="btn btn-success" type="button">Love it</button>
+                      <button class="btn btn-success" id="search" type="submit">Search</button>
                     </div>
                   </div>
             </div>
@@ -40,11 +40,33 @@
                   <div class="row">
                     <div>
                       <div class="card-deck">
-                        <div class="col-12">
+                        <div class="col-12 pb-5">
                         <div class="card">
                           <div class="card-body">
+                            <h4 class="card-title" id="weather"></h4>
+                            <p class="card-text" id="current-temp"></p>
+                            <p class="card-text" id="feels-like"></p>
+                            <p class="card-text" id="humidity"></p>
+                            <p class="card-text" id="temp-max"></p>
+                            <p class="card-text" id="temp-min"></p>                          
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <h2 class="text-left pl-3">5-Day Forecast:</h2>
+                      </div>
+                      <div class="col">
+                        <div class="card" id="dayone">
+                          <div class="card-body">
                             <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text" id="dayOne">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col">
+                        <div class="card" id="daytwo">
+                          <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text" id="dayTwo">This card has supporting text below as a natural lead-in to additional content.</p>
                           </div>
                         </div>
                       </div>
@@ -71,23 +93,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                           </div>
                         </div>
-                      </div>
-                      <div class="col">
-                        <div class="card">
-                          <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card">
-                          <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                          </div>
-                        </div>
-                      </div>
+                      </div> -->
                         
                       </div>
                     
